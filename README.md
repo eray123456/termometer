@@ -1,5 +1,5 @@
-#include <LiquidCrystal_I2C_AvrI2C.h>
-LiquidCrystal_I2C_AvrI2C lcd(0x3f,16,2); 
+ #include <LiquidCrystal_I2C_AvrI2C.h>
+LiquidCrystal_I2C_AvrI2C lcd(0x3f,16,2);
 const int sensor =A0;
 int sensor_deger ;
 float voltaj_deger ;
